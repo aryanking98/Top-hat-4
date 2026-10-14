@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111311">
+  <meta name="description" content="Top Hat Home Maintenance Services provides interior and exterior painting, roof restoration and repairs, roof painting, fence and deck painting, and commercial painting across Melbourne. Enquire for a quote.">
+  <meta name="robots" content="index,follow">
+  <title>Top Hat Home Maintenance Services | Painting & Roof Restoration Melbourne</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/brand-logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement-bar">
+    <div class="shell announcement-inner">
+      <span><span class="status-dot" aria-hidden="true"></span> Home maintenance across Melbourne</span>
+      <span class="announcement-right">15 years of experience <i aria-hidden="true">·</i> 7 days a week <i aria-hidden="true">·</i> 24-hour availability</span>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="shell header-inner">
+      <a class="brand" href="#home" aria-label="Top Hat Home Maintenance Services home">
+        <span class="brand-mark"><picture class="responsive-picture"><source srcset="assets/brand-logo.webp" type="image/webp"><img src="assets/brand-logo.jpg" width="160" height="107" alt="Top Hat Home Maintenance Services logo"></picture></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#reviews">Reviews</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+61414623661" aria-label="Call Top Hat on 0414 623 661">
+          <span class="phone-symbol" aria-hidden="true">↗</span>
+          <span><small>Speak with the team</small><strong>0414 623 661</strong></span>
+        </a>
+        <button class="button button-gold header-quote" type="button" data-quote-open>Get a Free Quote <span aria-hidden="true">↗</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-photo" aria-hidden="true"><picture class="hero-picture"><source media="(min-width: 681px)" srcset="assets/roof-closeup.webp" type="image/webp"><source media="(min-width: 681px)" srcset="assets/roof-closeup.jpg" type="image/jpeg"><source media="(max-width: 680px)" srcset="assets/roof-roofing.webp" type="image/webp"><source media="(max-width: 680px)" srcset="assets/roof-roofing.jpg" type="image/jpeg"><img src="assets/roof-closeup.jpg" alt="" width="1280" height="960" loading="eager" fetchpriority="high" decoding="async"></picture></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-accent" aria-hidden="true"></div>
+      <div class="shell hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Painting <i>◆</i> Roofing <i>◆</i> Repairs <i>◆</i> Maintenance</p>
+          <h1 id="heroTitle">Professional home maintenance <em>in Melbourne.</em></h1>
+          <p class="hero-intro">Thoughtful painting, roof restoration and property maintenance, backed by 15 years of hands-on experience.</p>
+          <p class="hero-subintro">From the first conversation to the finishing details, we focus on clear communication and quality workmanship.</p>
+          <div class="hero-cta-row">
+            <a class="button button-gold button-large" href="tel:+61414623661"><span class="button-icon" aria-hidden="true">☎</span> Call 0414 623 661</a>
+            <button class="button button-outline button-large" type="button" data-quote-open>Get a Free Quote <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="trust-points" aria-label="Business highlights">
+            <div class="trust-point"><span class="trust-icon" aria-hidden="true">✦</span><span><strong>15+ Years</strong><small>Experience</small></span></div>
+            <div class="trust-point"><span class="trust-icon" aria-hidden="true">⌖</span><span><strong>All Melbourne</strong><small>Service area</small></span></div>
+            <div class="trust-point"><span class="trust-icon" aria-hidden="true">◷</span><span><strong>7 Days</strong><small>24-hour availability</small></span></div>
+          </div>
+        </div>
+
+        <aside class="quote-card" id="quickQuote" aria-labelledby="quickQuoteTitle">
+          <div class="quote-card-heading">
+            <span class="quote-kicker">LET'S GET STARTED</span>
+            <h2 id="quickQuoteTitle">Request a <em>free quote.</em></h2>
+            <p>Tell us a little about your project and how to reach you.</p>
+          </div>
+          <form class="quote-form" data-enquiry-form>
+            <div class="field-row">
+              <label for="heroName">Full name <span>*</span></label>
+              <input id="heroName" name="name" type="text" autocomplete="name" placeholder="Your name" maxlength="100" required>
+            </div>
+            <div class="field-row">
+              <label for="heroPhone">Phone number <span>*</span></label>
+              <input id="heroPhone" name="phone" type="tel" autocomplete="tel" placeholder="Best contact number" maxlength="40" required>
+            </div>
+            <div class="field-row">
+              <label for="heroService">Service needed <span>*</span></label>
+              <select id="heroService" name="service" required>
+                <option value="">Choose a service</option>
+                <option>Interior Painting</option>
+                <option>Exterior Painting</option>
+                <option>Roof Restoration & Repairs</option>
+                <option>Roof Painting</option>
+                <option>Fence & Deck Painting</option>
+                <option>Commercial Painting</option>
+                <option>Other home maintenance</option>
+              </select>
+            </div>
+            <div class="field-row field-row-suburb">
+              <label for="heroSuburb">Suburb</label>
+              <input id="heroSuburb" name="suburb" type="text" autocomplete="address-level2" placeholder="Suburb where the work is needed" maxlength="100">
+            </div>
+            <div class="field-row">
+              <label for="heroDetails">Project details</label>
+              <textarea id="heroDetails" name="details" rows="3" maxlength="1500" placeholder="What would you like help with?"></textarea>
+            </div>
+            <button class="button button-gold submit-button" type="submit">Prepare My Enquiry <span aria-hidden="true">→</span></button>
+            <p class="form-note">Your email app will open with your enquiry ready to review and send.</p>
+            <div class="form-status" data-form-status role="status" aria-live="polite"></div>
+          </form>
+        </aside>
+      </div>
+</section>
+
+    <section class="services-section section" id="services" aria-labelledby="servicesTitle">
+      <div class="shell">
+        <div class="section-heading services-heading">
+          <div><p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> WHAT WE DO</p><h2 id="servicesTitle">Complete home maintenance <em>solutions.</em></h2></div>
+          <div class="section-heading-copy"><p>From painting inside the home to restoring exposed roof surfaces, get in touch to discuss a practical approach for your property.</p><button class="text-action" type="button" data-quote-open>Discuss your project <span aria-hidden="true">↗</span></button></div>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-number">01</span><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M9 7h30v15H9zM14 22v19m20-19v19M14 30h20"/></svg></span><h3>Interior Painting</h3><p>Refresh walls, ceilings, trims and living spaces with careful preparation and a clean finish.</p><button type="button" class="service-cta" data-service="Interior Painting">Request a quote <span aria-hidden="true">↗</span></button></article>
+          <article class="service-card"><span class="service-number">02</span><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M5 22 24 7l19 15M10 20v21h28V20M18 41V28h12v13"/></svg></span><h3>Exterior Painting</h3><p>Refresh and protect suitable exterior surfaces with preparation tailored to the conditions.</p><button type="button" class="service-cta" data-service="Exterior Painting">Request a quote <span aria-hidden="true">↗</span></button></article>
+          <article class="service-card service-card-featured"><span class="service-number">03</span><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="m4 25 20-17 20 17M8 22v19h32V22M18 41V29h12v12M15 17l9 6 9-6"/></svg></span><h3>Roof Restoration & Repairs</h3><p>Roof maintenance, repairs and restoration work based on the condition of your roof.</p><button type="button" class="service-cta" data-service="Roof Restoration & Repairs">Request a quote <span aria-hidden="true">↗</span></button></article>
+          <article class="service-card"><span class="service-number">04</span><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M5 29 24 11l19 18M10 26v15h28V26M13 33h22M17 28h14"/></svg></span><h3>Roof Painting</h3><p>Give your roof a renewed appearance with an appropriate preparation and coating process.</p><button type="button" class="service-cta" data-service="Roof Painting">Request a quote <span aria-hidden="true">↗</span></button></article>
+          <article class="service-card"><span class="service-number">05</span><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M7 8v32M15 8v32M23 8v32M31 8v32M39 8v32M4 15h40M4 33h40"/></svg></span><h3>Fence & Deck Painting</h3><p>Refresh outdoor timber, fencing and deck surfaces with a considered new finish.</p><button type="button" class="service-cta" data-service="Fence & Deck Painting">Request a quote <span aria-hidden="true">↗</span></button></article>
+          <article class="service-card service-card-wide"><span class="service-number">06</span><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M5 41V9h38v32M13 17h7v7h-7zM28 17h7v7h-7zM13 30h7v7h-7zM28 30h7v7h-7zM3 41h42"/></svg></span><div class="service-wide-copy"><h3>Commercial Painting</h3><p>Painting solutions for commercial interiors and exteriors. Share your site, scope and timing so the work can be discussed.</p></div><button type="button" class="service-cta" data-service="Commercial Painting">Request a quote <span aria-hidden="true">↗</span></button></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience-section" id="about" aria-labelledby="aboutTitle">
+      <div class="experience-media"><picture class="responsive-picture"><source srcset="assets/deck-painting.webp" type="image/webp"><img src="assets/deck-painting.jpg" alt="Covered outdoor timber deck with a rich brown finish" loading="eager" width="900" height="1200"></picture></div>
+      <div class="experience-text"><p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> WHY CHOOSE TOP HAT</p><h2 id="aboutTitle">Good work stands out. <em>So do the details.</em></h2><p>With 15 years of experience, Top Hat Home Maintenance Services works with homeowners and businesses across Melbourne. We take a practical approach to preparation, workmanship and communication so you can make informed decisions about your property.</p><button type="button" class="text-action" data-quote-open>Talk through your project <span aria-hidden="true">↗</span></button><div class="experience-signoff"><span class="signoff-line"></span><span>TOP HAT HOME MAINTENANCE SERVICES</span></div></div>
+    </section>
+
+    <section class="projects-section section" id="projects" aria-labelledby="projectsTitle">
+      <div class="shell">
+        <div class="section-heading projects-heading reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> RECENT WORK</p>
+            <h2 id="projectsTitle">Good work. <em>Real spaces.</em></h2>
+          </div>
+          <div class="projects-heading-action">
+            <p>A closer look at recent interior painting, roof and outdoor projects, using photographs supplied by the business.</p>
+            <a class="instagram-inline" href="https://instagram.com/top_hat_home_maintence_servies?obrf=MTl6dGxidGpzbGtpYw%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Open Top Hat Home Maintenance Services on Instagram">
+              <span class="instagram-glyph" aria-hidden="true">◎</span> More on Instagram <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-toolbar" aria-label="Filter project photos">
+          <div class="project-filters" role="group" aria-label="Filter by type of work">
+            <button type="button" class="project-filter is-active" data-project-filter="all" aria-pressed="true">All work</button>
+            <button type="button" class="project-filter" data-project-filter="interior" aria-pressed="false">Interior painting</button>
+            <button type="button" class="project-filter" data-project-filter="roofing" aria-pressed="false">Roofing</button>
+            <button type="button" class="project-filter" data-project-filter="outdoor" aria-pressed="false">Fence &amp; deck</button>
+          </div>
+          <p class="project-count" id="projectCount" aria-live="polite">Selected project photos</p>
+        </div>
+
+        <div class="project-grid" id="projectGrid" aria-live="off">
+          <figure class="project-card reveal" data-category="interior" data-orientation="portrait">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Apartment interior, open-plan room">
+              <picture class="responsive-picture"><source srcset="assets/interior-room-open-plan.webp" type="image/webp"><img src="assets/interior-room-open-plan.jpg" alt="Open-plan apartment interior with light walls, fitted storage and timber-look flooring" width="960" height="1280" loading="eager" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>INTERIOR PAINTING</span><strong>Open-plan apartment</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="roofing" data-orientation="portrait">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Tiled roof restoration">
+              <picture class="responsive-picture"><source srcset="assets/roof-roofing.webp" type="image/webp"><img src="assets/roof-roofing.jpg" alt="Close view of a tiled residential roof with a dark finish" width="825" height="1100" loading="eager" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>ROOFING</span><strong>Tiled roof finish</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="interior" data-orientation="portrait">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Interior wall and ceiling details">
+              <picture class="responsive-picture"><source srcset="assets/interior-wall-finish.webp" type="image/webp"><img src="assets/interior-wall-finish.jpg" alt="Interior wall, ceiling and skirting details in a light-coloured room" width="960" height="1280" loading="eager" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>INTERIOR PAINTING</span><strong>Wall &amp; ceiling details</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="outdoor" data-orientation="portrait">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Timber fence and deck">
+              <picture class="responsive-picture"><source srcset="assets/fence-deck.webp" type="image/webp"><img src="assets/fence-deck.jpg" alt="Outdoor timber deck seating beside a timber privacy fence" width="825" height="1100" loading="lazy" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>FENCE &amp; DECK</span><strong>Outdoor timber surfaces</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="interior" data-orientation="landscape">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Apartment living area">
+              <picture class="responsive-picture"><source srcset="assets/interior-living-area.webp" type="image/webp"><img src="assets/interior-living-area.jpg" alt="Apartment living area showing light wall surfaces and a fitted kitchen" width="1280" height="960" loading="lazy" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>INTERIOR PAINTING</span><strong>Apartment living area</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="outdoor" data-orientation="portrait">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Covered outdoor deck">
+              <picture class="responsive-picture"><source srcset="assets/deck-painting.webp" type="image/webp"><img src="assets/deck-painting.jpg" alt="Covered outdoor deck with timber floorboards and outdoor cabinetry" width="900" height="1200" loading="lazy" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>DECKING</span><strong>Covered outdoor deck</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="interior" data-orientation="landscape">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Interior room and fitted storage">
+              <picture class="responsive-picture"><source srcset="assets/interior-room-detail.webp" type="image/webp"><img src="assets/interior-room-detail.jpg" alt="Interior room with fitted storage and a light timber-look floor" width="1280" height="960" loading="lazy" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>INTERIOR PAINTING</span><strong>Room finish and details</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="roofing" data-orientation="landscape">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Residential tiled roof">
+              <picture class="responsive-picture"><source srcset="assets/roof-closeup.webp" type="image/webp"><img src="assets/roof-closeup.jpg" alt="Residential tiled roof and roofline viewed from outside" width="1280" height="960" loading="lazy" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>ROOFING</span><strong>Residential roofline</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="interior" data-orientation="landscape">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Interior wall preparation">
+              <picture class="responsive-picture"><source srcset="assets/interior-preparation-room.webp" type="image/webp"><img src="assets/interior-preparation-room.jpg" alt="Wide interior wall with protective floor covering during preparation work" width="1280" height="960" loading="lazy" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>INTERIOR PAINTING</span><strong>Wall preparation</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="interior" data-orientation="portrait">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Interior wall detail">
+              <picture class="responsive-picture"><source srcset="assets/interior-wall-detail.webp" type="image/webp"><img src="assets/interior-wall-detail.jpg" alt="Light-coloured interior wall and protected flooring during a room project" width="960" height="1280" loading="lazy" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>INTERIOR PAINTING</span><strong>Wall detail</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="interior" data-orientation="portrait">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Apartment interior preparation">
+              <picture class="responsive-picture"><source srcset="assets/interior-apartment-prep.webp" type="image/webp"><img src="assets/interior-apartment-prep.jpg" alt="Apartment interior with protected flooring and wall surfaces being prepared" width="960" height="1280" loading="lazy" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>INTERIOR PAINTING</span><strong>Apartment preparation</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="interior" data-orientation="portrait">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Masked interior work area">
+              <picture class="responsive-picture"><source srcset="assets/interior-masking-prep.webp" type="image/webp"><img src="assets/interior-masking-prep.jpg" alt="Interior wall and sliding storage doors masked for careful preparation work" width="960" height="1280" loading="lazy" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>INTERIOR PAINTING</span><strong>Masked work area</strong></figcaption>
+          </figure>
+          <figure class="project-card reveal" data-category="interior" data-orientation="portrait">
+            <button type="button" class="project-media" data-lightbox-open aria-label="View larger photo: Entry door and wall preparation">
+              <picture class="responsive-picture"><source srcset="assets/interior-entry-prep.webp" type="image/webp"><img src="assets/interior-entry-prep.jpg" alt="Entry door and adjacent wall with sections prepared for finishing work" width="960" height="1280" loading="lazy" decoding="async"></picture>
+              <span class="project-zoom" aria-hidden="true">↗</span>
+            </button>
+            <figcaption><span>INTERIOR PAINTING</span><strong>Entryway preparation</strong></figcaption>
+          </figure>
+        </div>
+        <div class="project-more-wrap"><button type="button" class="button button-outline project-more" id="projectMore" aria-controls="projectGrid" aria-expanded="false" hidden>View more project photos <span aria-hidden="true">↓</span></button></div>
+        <p class="project-footnote">Project photographs are shown as supplied. Some interior images document preparation or work in progress.</p>
+      </div>
+    </section>
+
+    <section class="reviews-section section" id="reviews" aria-labelledby="reviewsTitle">
+      <div class="shell reviews-layout">
+        <div class="reviews-intro"><p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> CUSTOMER FEEDBACK</p><h2 id="reviewsTitle">A good reputation is <em>earned.</em></h2><p>Want to check feedback before getting in touch? Use the links below to look for the business profile and available customer ratings.</p><a class="button button-dark" href="https://www.google.com/maps/search/?api=1&query=Top+Hat+Home+Maintenance+Services+Melbourne" target="_blank" rel="noopener noreferrer">Find us on Google <span aria-hidden="true">↗</span></a></div>
+        <div class="review-lookup-card"><div class="review-lookup-top"><span class="google-mark" aria-hidden="true">G</span><div><span class="review-label">GOOGLE MAPS</span><h3>Read the latest reviews</h3></div></div><p>Open Google Maps to check the business listing, recent feedback and current details directly on Google.</p><a class="review-link" href="https://www.google.com/maps/search/?api=1&query=Top+Hat+Home+Maintenance+Services+Melbourne" target="_blank" rel="noopener noreferrer">View Google Maps results <span aria-hidden="true">↗</span></a>
+          <a class="secondary-review-link" href="https://hipages.com.au/connect/tophathomemaintenanceservices" target="_blank" rel="noopener noreferrer">Also read customer feedback on hipages <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+</main>
+
+  <footer class="site-footer" id="contact">
+    <div class="shell footer-main">
+      <div class="footer-brand-column"><a class="footer-brand" href="#home"><span class="footer-brand-mark"><picture class="responsive-picture"><source srcset="assets/brand-logo.webp" type="image/webp"><img src="assets/brand-logo.jpg" alt="Top Hat Home Maintenance Services logo" width="150" height="100" loading="lazy"></picture></span></a><p>Painting, roof restoration and property maintenance across Melbourne.</p><p class="footer-abn">ABN 30 937 284 041</p></div>
+      <div class="footer-col"><h3>Services</h3><a href="#services">Interior & exterior painting</a><a href="#services">Roof restoration & repairs</a><a href="#services">Roof painting</a><a href="#services">Fence & deck painting</a><a href="#services">Commercial painting</a></div>
+      <div class="footer-col"><h3>Contact</h3><a class="footer-contact-link" href="tel:+61414623661">0414 623 661</a><a href="mailto:tophatpainting@hatmail.com">tophatpainting@hatmail.com</a></div>
+      <div class="footer-col"><h3>Availability</h3><p>7 days a week</p><p>24-hour availability</p><a class="footer-instagram" href="https://instagram.com/top_hat_home_maintence_servies?obrf=MTl6dGxidGpzbGtpYw%3D%3D" target="_blank" rel="noopener noreferrer"><span class="instagram-glyph" aria-hidden="true">◎</span> Instagram profile ↗</a><button type="button" class="footer-quote-link" data-contact-open>Send an enquiry <span aria-hidden="true">↗</span></button></div>
+    </div>
+    <div class="shell footer-bottom"><span>© <span id="currentYear"></span> Top Hat Home Maintenance Services</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+
+  <div class="floating-controls" aria-label="Quick contact actions">
+    <button type="button" class="floating-contact" data-contact-open aria-label="Open contact options"><span aria-hidden="true">⋯</span><small>Contact</small></button>
+  </div>
+
+  <div class="modal-backdrop" id="quoteModal" hidden>
+    <section class="modal-panel quote-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalQuoteTitle">
+      <button type="button" class="modal-close" data-modal-close aria-label="Close request form">×</button>
+      <p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> FREE QUOTE</p>
+      <h2 id="modalQuoteTitle">Tell us about <em>your project.</em></h2>
+      <p class="modal-description">Complete the form and your email app will open with the enquiry prepared for you.</p>
+      <form class="quote-form modal-quote-form" data-enquiry-form>
+        <div class="field-row"><label for="modalName">Full name <span>*</span></label><input id="modalName" name="name" type="text" autocomplete="name" required maxlength="100" placeholder="Your name"></div>
+        <div class="field-row"><label for="modalPhone">Phone number <span>*</span></label><input id="modalPhone" name="phone" type="tel" autocomplete="tel" required maxlength="40" placeholder="Best contact number"></div>
+        <div class="field-row"><label for="modalService">Service needed <span>*</span></label><select id="modalService" name="service" required><option value="">Choose a service</option><option>Interior Painting</option><option>Exterior Painting</option><option>Roof Restoration & Repairs</option><option>Roof Painting</option><option>Fence & Deck Painting</option><option>Commercial Painting</option><option>Other home maintenance</option></select></div>
+        <div class="field-row"><label for="modalSuburb">Suburb</label><input id="modalSuburb" name="suburb" type="text" autocomplete="address-level2" maxlength="100" placeholder="Suburb where the work is needed"></div>
+        <div class="field-row"><label for="modalDetails">Project details</label><textarea id="modalDetails" name="details" rows="3" maxlength="1500" placeholder="What would you like help with?"></textarea></div>
+        <button type="submit" class="button button-gold submit-button">Prepare My Enquiry <span aria-hidden="true">→</span></button>
+        <p class="form-note">No information is sent automatically. Review the prepared email and choose Send.</p>
+        <div class="form-status" data-form-status role="status" aria-live="polite"></div>
+      </form>
+    </section>
+  </div>
+
+  <div class="modal-backdrop lightbox-backdrop" id="projectLightbox" hidden>
+    <section class="lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="lightboxCaption" aria-describedby="lightboxHelp">
+      <button type="button" class="lightbox-close" data-modal-close aria-label="Close photo viewer">×</button>
+      <button type="button" class="lightbox-arrow lightbox-prev" data-lightbox-prev aria-label="Previous photo">‹</button>
+      <figure class="lightbox-figure">
+        <img id="lightboxImage" src="assets/interior-room-open-plan.jpg" alt="" width="960" height="1280">
+        <figcaption id="lightboxCaption"></figcaption>
+      </figure>
+      <button type="button" class="lightbox-arrow lightbox-next" data-lightbox-next aria-label="Next photo">›</button>
+      <p id="lightboxHelp" class="lightbox-help">Use the arrows or your keyboard to browse photos.</p>
+    </section>
+  </div>
+
+  <div class="modal-backdrop contact-backdrop" id="contactModal" hidden>
+    <section class="modal-panel contact-panel" role="dialog" aria-modal="true" aria-labelledby="contactPanelTitle">
+      <button type="button" class="modal-close" data-modal-close aria-label="Close contact options">×</button>
+      <p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> GET IN TOUCH</p>
+      <h2 id="contactPanelTitle">How can we <em>help?</em></h2>
+      <p class="modal-description">Choose the easiest way to discuss your painting or maintenance project.</p>
+      <a class="contact-method" href="tel:+61414623661"><span class="contact-method-icon" aria-hidden="true">☎</span><span><strong>Call Top Hat</strong><small>0414 623 661</small></span><b aria-hidden="true">↗</b></a>
+      <a class="contact-method" href="mailto:tophatpainting@hatmail.com"><span class="contact-method-icon" aria-hidden="true">✉</span><span><strong>Send an email</strong><small>tophatpainting@hatmail.com</small></span><b aria-hidden="true">↗</b></a>
+      <a class="contact-method" href="https://instagram.com/top_hat_home_maintence_servies?obrf=MTl6dGxidGpzbGtpYw%3D%3D" target="_blank" rel="noopener noreferrer"><span class="contact-method-icon instagram-contact-icon" aria-hidden="true">◎</span><span><strong>Instagram</strong><small>@top_hat_home_maintence_servies</small></span><b aria-hidden="true">↗</b></a>
+      <button type="button" class="contact-method contact-method-button" id="contactPanelQuote"><span class="contact-method-icon" aria-hidden="true">⌁</span><span><strong>Request a free quote</strong><small>Tell us what you need done</small></span><b aria-hidden="true">↗</b></button>
+    </section>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
